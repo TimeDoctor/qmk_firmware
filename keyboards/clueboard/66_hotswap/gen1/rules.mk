@@ -18,6 +18,9 @@ NKRO_ENABLE = yes	    # USB Nkey Rollover
 #CUSTOM_MATRIX = yes # Custom matrix file
 AUDIO_ENABLE = yes
 # SERIAL_LINK_ENABLE = yes
+RGBLIGHT_ENABLE = yes
+RGB_DI_PIN = B13
+RGBLED_NUM = 21
 
 # project specific files
 SRC =	led.c
