@@ -20,8 +20,8 @@ AUDIO_ENABLE = yes
 # SERIAL_LINK_ENABLE = yes
 RGBLIGHT_ENABLE = yes
 RGB_DI_PIN = B13
-RGBLED_NUM = 21
-
+RGBLED_NUM = 1
+RGBLIGHT_LIMIT_VAL = 150
 # project specific files
 SRC =	led.c
 LAYOUTS += 66_ansi
